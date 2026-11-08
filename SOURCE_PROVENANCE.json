@@ -1,0 +1,139 @@
+{
+  "release": "DREAM covariance-2 routed",
+  "reference_checkpoint_sha256": "38d17fd3aaf0c881b7912b675948d4c25fe66ea8d115a1d1fd17aac35a5bd357",
+  "algorithm_changes": false,
+  "files": {
+    "check_cqsm_distributed.py": {
+      "experiment_sha256": "462996df57202f799ef4fae42537ac87eebd43071c42f4405421c163e7521dda",
+      "changes": [],
+      "release_sha256": "462996df57202f799ef4fae42537ac87eebd43071c42f4405421c163e7521dda"
+    },
+    "check_cqsm_restored_distributed.py": {
+      "experiment_sha256": "8883550eedafbe4644a463c3a049c1f5902ff846b48c7ad05e98c7e9f8220419",
+      "changes": [],
+      "release_sha256": "8883550eedafbe4644a463c3a049c1f5902ff846b48c7ad05e98c7e9f8220419"
+    },
+    "check_shared_prefix_distributed.py": {
+      "experiment_sha256": "52fc16c171f33b06872e3f4579266a08cf3e4bf9061a206092b3571a02469afc",
+      "changes": [],
+      "release_sha256": "52fc16c171f33b06872e3f4579266a08cf3e4bf9061a206092b3571a02469afc"
+    },
+    "continual_lora/__init__.py": {
+      "experiment_sha256": "57b277379820183970810fb399c34807bae572a9d9a19e5898ef9592760e24c5",
+      "changes": [],
+      "release_sha256": "57b277379820183970810fb399c34807bae572a9d9a19e5898ef9592760e24c5"
+    },
+    "continual_lora/cqsm_accounting.py": {
+      "experiment_sha256": "17459f81c682f53cc3a8bf62aef7bfe6f28a80ae0d5f5ddfeab653652bed3bad",
+      "changes": [],
+      "release_sha256": "17459f81c682f53cc3a8bf62aef7bfe6f28a80ae0d5f5ddfeab653652bed3bad"
+    },
+    "continual_lora/eval_protocol.py": {
+      "experiment_sha256": "c8def4aa6b6f7cf83cd3c03e98147e5e9c272352331a2df95ec7ec83ad2cde27",
+      "changes": [],
+      "release_sha256": "c8def4aa6b6f7cf83cd3c03e98147e5e9c272352331a2df95ec7ec83ad2cde27"
+    },
+    "continual_lora/global_coordination.py": {
+      "experiment_sha256": "3ae0b1db8ca8e3793510cf6289ac8bf494293f632d90935dd1cb0ed7673ad640",
+      "changes": [],
+      "release_sha256": "3ae0b1db8ca8e3793510cf6289ac8bf494293f632d90935dd1cb0ed7673ad640"
+    },
+    "continual_lora/global_retention.py": {
+      "experiment_sha256": "685bcfe774a068a16768c5ac02e5711875f12057709564fc8d9de1417f1e214c",
+      "changes": [],
+      "release_sha256": "685bcfe774a068a16768c5ac02e5711875f12057709564fc8d9de1417f1e214c"
+    },
+    "continual_lora/methods.py": {
+      "experiment_sha256": "d44b6ffc0cdcc7e6e24cefd43780e8d8d02b2f300ee5cfadb5a87ceca3e5392a",
+      "changes": [],
+      "release_sha256": "d44b6ffc0cdcc7e6e24cefd43780e8d8d02b2f300ee5cfadb5a87ceca3e5392a"
+    },
+    "continual_lora/numerics.py": {
+      "experiment_sha256": "ac9887489152046379cc21e6c640316a01ee93330dad7e554430076bd78998b1",
+      "changes": [],
+      "release_sha256": "ac9887489152046379cc21e6c640316a01ee93330dad7e554430076bd78998b1"
+    },
+    "continual_lora/online_deconflict.py": {
+      "experiment_sha256": "8664c49a0f3746fb0d5891b7c6da09c8e51089fdd43077ec1e015f4678562e9c",
+      "changes": [],
+      "release_sha256": "8664c49a0f3746fb0d5891b7c6da09c8e51089fdd43077ec1e015f4678562e9c"
+    },
+    "continual_lora/shared_prefix.py": {
+      "experiment_sha256": "8ec1d760c4c124b47f1ea123d7633372aa71d8a2fb5e3415b6f002068db15872",
+      "changes": [],
+      "release_sha256": "8ec1d760c4c124b47f1ea123d7633372aa71d8a2fb5e3415b6f002068db15872"
+    },
+    "continual_lora/trainer.py": {
+      "experiment_sha256": "62990cc8de2ac53bd3abf8dd26c7299beda9d5c3bd4a173d5cbfc00e1e3ff517",
+      "changes": [],
+      "release_sha256": "62990cc8de2ac53bd3abf8dd26c7299beda9d5c3bd4a173d5cbfc00e1e3ff517"
+    },
+    "evaluate_continual_lora.py": {
+      "experiment_sha256": "bb795b328a021e972db3c830d1855a74e0d569d804ba9e347175d9308b2a8902",
+      "changes": [
+        "explicit data/frozen/checkpoint/bpe paths; current Python interpreter for workers",
+        "cached and new metrics validate base SAM3 SHA256 and image coverage; same checks for frozen references"
+      ],
+      "release_sha256": "f5fb28acaa5f3d3999797c9e6d624d604874155ad4d46b77265ab58d50d901d4"
+    },
+    "frozen_sam3_baseline.py": {
+      "experiment_sha256": "d6fdc0443f944e7ef381e66576b70df52ba0cd5b06364968ca2efd6861194834",
+      "changes": [
+        "base SAM3 SHA256 added to run signatures and metric metadata; predictions and metric formulas unchanged"
+      ],
+      "release_sha256": "1049381164b79c7662888ce5a886890f8810c81822a505101b0acc6009c13d0d"
+    },
+    "test_continual_lora.py": {
+      "experiment_sha256": "46949437bbfd4632fcdd2cb711d878d15b0567d1ac728f34ebc90d9681ac25a6",
+      "changes": [],
+      "release_sha256": "46949437bbfd4632fcdd2cb711d878d15b0567d1ac728f34ebc90d9681ac25a6"
+    },
+    "test_cqsm.py": {
+      "experiment_sha256": "630b5ed628f068df6dece34685ce97c7ab7a9cad9033115a51b0ae932622224f",
+      "changes": [],
+      "release_sha256": "630b5ed628f068df6dece34685ce97c7ab7a9cad9033115a51b0ae932622224f"
+    },
+    "test_cqsm_restored.py": {
+      "experiment_sha256": "43a5b1fa06e96bef53de70273fa18870178aaebbae47ed1429702edfc98292c1",
+      "changes": [],
+      "release_sha256": "43a5b1fa06e96bef53de70273fa18870178aaebbae47ed1429702edfc98292c1"
+    },
+    "test_global_coordination.py": {
+      "experiment_sha256": "bfd53e9a42b266b4dbfe4a6d9ed42cf423f8e62e5c31458be4122ed6013f0d3a",
+      "changes": [],
+      "release_sha256": "bfd53e9a42b266b4dbfe4a6d9ed42cf423f8e62e5c31458be4122ed6013f0d3a"
+    },
+    "test_global_full_private.py": {
+      "experiment_sha256": "317bfe5926e63ce103bc9a7beb7122aabccf89180b107bfbaa337a819090892f",
+      "changes": [],
+      "release_sha256": "317bfe5926e63ce103bc9a7beb7122aabccf89180b107bfbaa337a819090892f"
+    },
+    "test_global_retention.py": {
+      "experiment_sha256": "ebffa3eb22fbf14a906eb73e8e96eccdf9170154230f8e45361193be8cdb5625",
+      "changes": [],
+      "release_sha256": "ebffa3eb22fbf14a906eb73e8e96eccdf9170154230f8e45361193be8cdb5625"
+    },
+    "test_numerics.py": {
+      "experiment_sha256": "aee02a3b49484d792316a4afa526c9197167ae9213c7335536fdf24df0c04f47",
+      "changes": [],
+      "release_sha256": "aee02a3b49484d792316a4afa526c9197167ae9213c7335536fdf24df0c04f47"
+    },
+    "test_online_deconflict.py": {
+      "experiment_sha256": "cf73290064a1a190cd47699532fa861425b5a94ca9f0f497c668d6c644917acb",
+      "changes": [],
+      "release_sha256": "cf73290064a1a190cd47699532fa861425b5a94ca9f0f497c668d6c644917acb"
+    },
+    "test_shared_prefix.py": {
+      "experiment_sha256": "9fffc55f75f7992cf432c847dde1e74b92ff5515f48a66556f8238238b4a0243",
+      "changes": [],
+      "release_sha256": "9fffc55f75f7992cf432c847dde1e74b92ff5515f48a66556f8238238b4a0243"
+    },
+    "train_continual_lora.py": {
+      "experiment_sha256": "40a15eda642e8dc12c1e8f412435b0daaf206d294499d9b036a654c9b011bf4a",
+      "changes": [
+        "checkpoint, bpe-path, data-root are explicit CLI arguments"
+      ],
+      "release_sha256": "d2d2a9e099c7cdd5b1372d827b5a717a754d0169461d622d0c667c55c6a7fe06"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# Install PyTorch and the SAM 3 training dependencies from Meta's repository first.
+# Direct dependencies of the DREAM adapter, evaluator and dataset converter.
+numpy>=1.26
+Pillow>=10
+pycocotools>=2.0.7
+opencv-python>=4.8
