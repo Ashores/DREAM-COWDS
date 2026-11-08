@@ -1,0 +1,92 @@
+{
+  "protocol": "COWDS evaluation splits",
+  "datasets": {
+    "PASCAL_VOC_2012": {
+      "train": {
+        "sha256": "700c29ca6b4d5cd759c953d7004c88fe4991aff08df2e29be3259a44993e8403",
+        "images": 1464,
+        "annotations": 3507,
+        "categories": 20
+      },
+      "val": {
+        "sha256": "8404ad1cc1d876bc13845e2e845bada19ee021dce9580c9420c96b719e049c39",
+        "images": 1449,
+        "annotations": 3427,
+        "categories": 20
+      }
+    },
+    "HRSID": {
+      "train": {
+        "sha256": "b9a0ad551799c4fa0df91bdfb6b9bd0bdb794eefb7edffd6aab79f3aba526308",
+        "images": 3642,
+        "annotations": 11038,
+        "categories": 1
+      },
+      "test": {
+        "sha256": "454ea0145fdbd8f2f5dca3d13d5a4d0ee87d94794ccceae7fb089b7c65272690",
+        "images": 1962,
+        "annotations": 5918,
+        "categories": 1
+      }
+    },
+    "Kvasir-Instrument": {
+      "train": {
+        "sha256": "ac590b6b8fb1a8634e38a2866be7252acc729f9fe31599c63bf1ccb1d5f392e0",
+        "images": 472,
+        "annotations": 496,
+        "categories": 1
+      },
+      "val": {
+        "sha256": "8565fa7b04a60593dbdd544200dbf5895729054fc016bbb95c7c4c08f506302d",
+        "images": 115,
+        "annotations": 121,
+        "categories": 1
+      }
+    },
+    "Cityscapes": {
+      "train": {
+        "sha256": "219991db713e83fc47e2979f1229fb34079813c337537c6006a1bbd90c261e43",
+        "images": 2975,
+        "annotations": 52469,
+        "categories": 8
+      },
+      "val": {
+        "sha256": "c6a0ab881d24c00aa81c1bc4b25bfb2c15c4bca071c814741d1a0d8186d170a3",
+        "images": 500,
+        "annotations": 10180,
+        "categories": 8
+      }
+    },
+    "TrashCan-Instance": {
+      "train": {
+        "sha256": "ab89a4bc2218c7c3189b7ef3b479a1f9db492147da01be54fdb9590b4ecc0d89",
+        "images": 6065,
+        "annotations": 9540,
+        "categories": 22
+      },
+      "val": {
+        "sha256": "3d866828daa30c4e2f1fd7a8a0e7fb706c37bc1f55be56d25f81410151a2298a",
+        "images": 1147,
+        "annotations": 2588,
+        "categories": 22
+      }
+    }
+  },
+  "kvasir_removed_val_image_ids": [
+    31,
+    65,
+    84
+  ],
+  "source_annotation_sha256": {
+    "PASCAL_VOC_2012/annotations/instances_train.json": "700c29ca6b4d5cd759c953d7004c88fe4991aff08df2e29be3259a44993e8403",
+    "PASCAL_VOC_2012/annotations/instances_val.json": "8404ad1cc1d876bc13845e2e845bada19ee021dce9580c9420c96b719e049c39",
+    "HRSID/annotations/instances_train.json": "b9a0ad551799c4fa0df91bdfb6b9bd0bdb794eefb7edffd6aab79f3aba526308",
+    "HRSID/annotations/instances_test.json": "454ea0145fdbd8f2f5dca3d13d5a4d0ee87d94794ccceae7fb089b7c65272690",
+    "Kvasir-Instrument/annotations/instances_train.json": "ac590b6b8fb1a8634e38a2866be7252acc729f9fe31599c63bf1ccb1d5f392e0",
+    "Kvasir-Instrument/annotations/instances_val.json": "c7677a99c4a63e5c8c21a0a3a63c70a0b7978dc2455e99d9bf85582bce9b0cc1",
+    "Cityscapes/annotations/instances_train.json": "219991db713e83fc47e2979f1229fb34079813c337537c6006a1bbd90c261e43",
+    "Cityscapes/annotations/instances_val.json": "c6a0ab881d24c00aa81c1bc4b25bfb2c15c4bca071c814741d1a0d8186d170a3",
+    "TrashCan-Instance/annotations/instances_train.json": "ab89a4bc2218c7c3189b7ef3b479a1f9db492147da01be54fdb9590b4ecc0d89",
+    "TrashCan-Instance/annotations/instances_val.json": "3d866828daa30c4e2f1fd7a8a0e7fb706c37bc1f55be56d25f81410151a2298a"
+  }
+}
